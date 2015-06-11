@@ -4,11 +4,11 @@
     "connector": "memory"
   },
   "postgres": {
-    "database": "alex",
-    "password": "alexalex",
-    "name": "postgres",
     "connector": "postgresql",
+    "database": "alex",
     "hostname": "localhost",
-    "user": "alex"
+    "name": "postgres",
+    "password": "alexalex",
+    "username": "alex"
   }
 }
