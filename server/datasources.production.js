@@ -6,6 +6,6 @@ module.exports = {
     port: process.env.RDS_PORT,
     user: process.env.RDS_USERNAME,
     password: process.env.RDS_PASSWORD,
-    database: 'alexalex',
+    database: 'ebdb',
   }
 };
