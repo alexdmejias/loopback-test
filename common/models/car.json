@@ -8,12 +8,15 @@
   },
   "properties": {
     "make": {
+      "type": "number",
+      "required": true
+    },
+    "color": {
       "type": "string",
       "required": true
     },
     "year": {
-      "type": "number",
-      "required": true
+      "type": "number"
     }
   },
   "validations": [],

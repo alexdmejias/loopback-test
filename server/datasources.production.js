@@ -1,0 +1,11 @@
+module.exports = {
+	postgres: {
+    connector: 'postgresql',
+		name: "postgres",
+    hostname: process.env.RDS_HOSTNAME,
+    port: process.env.RDS_PORT,
+    user: process.env.RDS_USERNAME,
+    password: process.env.RDS_PASSWORD,
+    database: 'alexalex',
+  }
+};

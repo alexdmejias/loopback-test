@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "postgres": {
+    "database": "alex",
+    "password": "alexalex",
+    "name": "postgres",
+    "connector": "postgresql",
+    "hostname": "localhost",
+    "user": "alex"
   }
 }
