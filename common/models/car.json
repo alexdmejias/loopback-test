@@ -7,8 +7,12 @@
     "validateUpsert": true
   },
   "properties": {
-    "make": {
+    "makeId": {
       "type": "number",
+      "required": true
+    },
+    "name": {
+      "type": "string",
       "required": true
     },
     "color": {
@@ -20,7 +24,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "make": {
+      "type": "belongsTo",
+      "model": "Make",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": []
 }

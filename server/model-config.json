@@ -37,5 +37,9 @@
     "public": true,
     "$promise": {},
     "$resolved": true
+  },
+  "Make": {
+    "dataSource": "postgres",
+    "public": true
   }
 }

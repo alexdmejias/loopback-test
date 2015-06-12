@@ -5,7 +5,7 @@
   },
   "postgres": {
     "database": "alex",
-    "username": "alex",
+    "username": "alexmejias",
     "password": "alexalex",
     "name": "postgres",
     "connector": "postgresql",
