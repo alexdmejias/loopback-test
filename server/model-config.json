@@ -32,7 +32,7 @@
     "dataSource": "db",
     "public": false
   },
-  "car": {
+  "Car": {
     "dataSource": "postgres",
     "public": true,
     "$promise": {},
