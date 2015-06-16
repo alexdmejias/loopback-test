@@ -6,11 +6,11 @@
     "validateUpsert": true
   },
   "properties": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Country": {
+    "country": {
       "type": "string"
     }
   },
@@ -19,7 +19,7 @@
     "cars": {
       "type": "hasMany",
       "model": "Car",
-      "foreignKey": "makeId"
+      "foreignKey": ""
     }
   },
   "acls": [],
