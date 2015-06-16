@@ -41,5 +41,9 @@
   "Make": {
     "dataSource": "postgres",
     "public": true
+  },
+  "Owner": {
+    "dataSource": "postgres",
+    "public": true
   }
 }
